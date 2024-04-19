@@ -6,6 +6,7 @@ import Login from './components/Login/Login';
 import Signup from './components/SignUp/SignUp';
 import Home from './components/Home/Home';
 import {auth} from '../src/firebase';
+import History from './components/History/History';
 import Header from './components/Header/Header';
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
          <Router>
          <Routes>
     
-         
+         <Route path="/history" element={<History/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/" element={<Home />} />

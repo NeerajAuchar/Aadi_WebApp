@@ -50,10 +50,10 @@ const Header = ( props ) => {
 		<header>
 			<h3>AADI</h3>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
 				<a href="/#">My work</a>
 				<a href="/#">Appoiments</a>
 				<a href="/#">Calender</a>
+				<a href="/history"> History</a>
 				{
 					authUser ? (<>
 					
